@@ -1,0 +1,68 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://csbailey.org/annonatate/img/derivatives/iiif/Copperfield/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "dc16"
+    ]
+  },
+  "summary": {
+    "en": [
+      "page 16 of working notes"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "http://csbailey.org/annonatate/img/derivatives/iiif/Copperfield/canvas/Copperfield-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "DC_WN_16"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "http://csbailey.org/annonatate/img/derivatives/iiif/Copperfield/DCWN16/full/169,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 2100,
+      "width": 2700,
+      "items": [
+        {
+          "id": "http://csbailey.org/annonatate/img/derivatives/iiif/Copperfield/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://csbailey.org/annonatate/img/derivatives/iiif/Copperfield/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://csbailey.org/annonatate/img/derivatives/iiif/Copperfield/DCWN16/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2100,
+                "width": 2700,
+                "service": [
+                  {
+                    "id": "http://csbailey.org/annonatate/img/derivatives/iiif/Copperfield/DCWN16",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "http://csbailey.org/annonatate/img/derivatives/iiif/Copperfield/canvas/Copperfield-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
